@@ -1,0 +1,63 @@
+.Project-section-ios {
+  margin-top: 125px;
+  width: 930px;
+  height: 410px;
+  letter-spacing: -2px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 100px;
+  line-height: 100px;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f7ff;
+  border-radius: 1.5rem;
+  /* test */
+
+  
+  background-position: 342px;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-size: 736px;
+  background-size: cover;
+  /* background-position-y: 34px; */
+  
+}
+.link-class{
+  text-decoration: none;
+}
+.project-image-ios {
+  margin-right: -4rem;
+  margin-top: 1rem;
+  padding: 0px;
+}
+
+.Project-section-ios:hover {
+  transition: all 0.2s ease 0s, transform 200ms ease 0s;
+  transform: scaleX(1.1) scaleY(1.1);
+}
+
+.project-text-ios {
+  padding-left: 2rem;
+  margin-top: -6rem;
+  margin-left: 2rem;
+  max-width: 50%;
+}
+
+.project-image-ios img {
+    width: 36rem;
+  position: relative;
+  border-radius: 1.5rem;
+}
+
+.project-text-ios h1 {
+  margin: 0;
+  color: #271c64;
+}
+
+.project-cont-ios h1 {
+  line-height: 1.5;
+  margin: 0;
+  font-size: 20px;
+}

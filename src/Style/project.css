@@ -1,0 +1,59 @@
+.Project-section{
+    margin-top: 125px;
+    width: 930px;
+    height: fit-content;
+    letter-spacing: -2px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 100px;
+    line-height: 100px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f6f6;
+    border-radius: 1.5rem;
+    justify-content: space-between;
+    background-color: #f1f6fa;
+
+}
+
+.project-image{
+    margin-right: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Project-section:hover {
+    transition: all 0.2s ease 0s, transform 200ms ease 0s;
+    /* Fix the transform property */
+    transform: scaleX(1.1) scaleY(1.1);
+}
+.project-text{
+    padding-left: 2rem;
+    padding-top: 1rem;
+    margin-left: 2rem;
+
+}
+
+.project-image img{
+    width: 560px;
+
+}
+.project-text h1{
+    margin: 15px;
+    margin-left: 1px;
+    color: #7facd4;
+}
+
+.project-cont h1{
+    line-height: 1.5;
+    margin: 5px;
+    margin-top: 2px;
+    font-size: 20px;
+}
+
+.project-view img{
+    width: 35px;
+}

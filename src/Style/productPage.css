@@ -1,0 +1,65 @@
+.mainProduct{
+    width: 1100px;
+    height: 410px;
+    color: aquamarine;
+    background-color: beige;
+    border-radius: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+
+.mainProduct img {
+    width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.3s ease;
+  }
+
+.SubHeading{
+    width: 930px;
+    height: max-content;
+    padding: 2rem;
+    color: #f8f7ff;
+  
+    border-radius: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.SubHeading h1{
+    color: #770012;
+    color: #111;
+    font-family: Graphik,sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.mainProduct img:hover {
+    transform: scale(1.2); /* Increase scale on hover (change as needed) */
+    z-index: 2;
+  }
+
+  .pic1 {
+    z-index: 2; /* Image 1 in front */
+  }
+  
+  .pic2,
+  .pic4 {
+    z-index: 1; /* Images 2 and 4 behind image 3 */
+  }
+  
+  .pic3 {
+    z-index: 0; /* Image 3 behind images 2 and 4 */
+  }
+  
+  .pic5 {
+    z-index: 2; /* Image 5 in front */
+  }

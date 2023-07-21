@@ -1,0 +1,76 @@
+.main-section{
+    display: flex;
+    margin-top: 125px;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.main-container {
+    margin-top: 125px;
+    width: 930px;
+    letter-spacing: -2px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 100px;
+    line-height: 100px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f6f6;
+    border-radius: 1.5rem;
+    justify-content: space-between;
+  }
+  .Photo{
+      margin-right: 2rem;
+  }
+  h1.spl {
+    color: #111111;
+    font-size: 4rem;
+    font-family: 'Inter', sans-serif, monospace;
+    margin: 0; /* Remove the default margin for h1 tags */
+  }
+  
+  .text-contianer {
+    padding-left: 2rem;
+    padding-top: 1rem;
+    margin-left: 2rem;
+  }
+
+
+  h1 {
+    font-size: 2rem;
+    margin: 0; /* Remove the default margin for h1 tags */
+  }
+  h1.tag{
+      font-weight: 600;
+  }
+  .tag-line{
+    max-width: 930px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+    line-height: 55px;
+    margin-top: 120px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+h3.tag-line{
+    font-weight: 600;
+    margin-top: 0;
+    font-family:  Gilroy,sans-serif
+}
+
+.main-container:hover{
+  transition: all 0.2s ease 0s, transform 200ms ease 0s;
+  /* Fix the transform property */
+  transform: scaleX(1.1) scaleY(1.1);
+}
+
+.spl img{
+  width: 382px;
+  height: 378px;
+}
