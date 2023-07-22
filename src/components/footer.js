@@ -12,10 +12,10 @@ const Footer = () => {
             </div>
             <div className="footer-child">
                 <div className="footer-links" id="fl">
-                <a href="https://in.linkedin.com/in/inesh-sekar-4625651a5" target="_blank" className="footer-link">
+                <a href="https://in.linkedin.com/in/inesh-sekar-4625651a5"  className="footer-link">
                 LinkedIn
                 </a>
-                <a href="https://github.com/Trident14" target="_blank" className="footer-link">
+                <a href="https://github.com/Trident14"  className="footer-link">
                 Github
                 </a>
                 <a href="mailto:sekarinesh14@gmail.com" className="footer-link">

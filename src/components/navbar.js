@@ -1,17 +1,23 @@
 import React from "react";
 import "../Style/navbar.css"
 import logo1 from "../Asset/logo1.png"
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+
 
 
 const Navbar = () => {
-  
+  const Navigate=useNavigate()
+    const handleLogoClick = () => {
+      Navigate('/home');
+    };
+
+
   return (
 
       <>
       <div className="nav">
-        <a className="logo-wrapper">
-         <Link to="/" href="/" ><img src={logo1} loading="lazy" alt="Inesh Sekar" class="logo-name"/></Link>
+        <a href="/home" className="logo-wrapper">
+         <img src={logo1} loading="lazy" alt="Inesh Sekar" class="logo-name" onClick={handleLogoClick}/>
         </a>
          
           <div className="nav-menu" id="nav-link">
