@@ -8,7 +8,7 @@ import { Link, useNavigate } from "react-router-dom";
 const Navbar = () => {
   const Navigate=useNavigate()
     const handleLogoClick = () => {
-      Navigate('/home');
+      Navigate('/');
     };
 
 
@@ -16,7 +16,7 @@ const Navbar = () => {
 
       <>
       <div className="nav">
-        <a href="/home" className="logo-wrapper">
+        <a href="/" className="logo-wrapper">
          <img src={logo1} loading="lazy" alt="Inesh Sekar" class="logo-name" onClick={handleLogoClick}/>
         </a>
          
