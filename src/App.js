@@ -15,6 +15,7 @@ const App = () => {
           <Navbar />
             <Routes>
               <Route path='/home' element={<MainSection /> } />
+              <Route path='/' element={<MainSection /> } />
               <Route path='/GridConquest' element={<Via LinkToPage={"/gridConquest"} /> } />
               <Route path='/CoffeeMate'   element={<Via LinkToPage={"/CoffeeMate"}/>} />
                 
